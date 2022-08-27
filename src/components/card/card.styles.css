@@ -1,0 +1,79 @@
+.card{
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    gap:0 1em;
+}
+
+.image-container{
+    height: 150px;
+    width:200px;
+}
+
+.item-details{
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.5em 0;
+}
+
+.location-details{
+    display: flex;
+    flex-direction: column;
+    gap:0.4em 0;
+}
+
+.card svg{
+    font-size:18px !important;
+}
+
+.image{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 20px 20px 0;
+}
+
+
+.price{
+    color: #E84855;
+    font-weight: bold;
+}
+
+.address,.price,.property-type,.location{
+    font-size: 16px;
+}
+
+.price, .property-type, .info, .location{
+    display: flex;
+    gap: 0 0.2em;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    color:rgb(163, 160, 160);
+}
+
+.info{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(163, 160, 160);
+    margin-right:1em;
+    align-items: center;
+}
+
+.info:last-child{
+    color: #E84855;
+}
+.property-details{
+    width: 100%;
+    display: flex;
+}
+.property-type{
+    font-weight: bold;
+}

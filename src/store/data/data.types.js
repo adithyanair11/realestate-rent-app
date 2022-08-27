@@ -1,0 +1,4 @@
+export const DATA_ACTION_TYPES = {
+    SET_DATA: 'SET_DATA',
+    FILTER_DATA: 'FILTER_DATA' 
+}
