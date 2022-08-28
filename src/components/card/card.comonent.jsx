@@ -4,9 +4,21 @@ import BedIcon from '@mui/icons-material/Bed';
 import BathtubIcon from '@mui/icons-material/Bathtub';
 import SquareFootIcon from '@mui/icons-material/SquareFoot';
 import ApartmentIcon from '@mui/icons-material/Apartment';
-import AddIcon from '@mui/icons-material/Add';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { useDispatch,useSelector } from 'react-redux';
+import { useState } from 'react';
+import { selectFavourites } from '../../store/favourites/favourites.selector';
+import { addItemToList} from '../../store/favourites/favourites.action';
 const Card = ({item}) => {
+    const dispatch = useDispatch();
+    const favList = useSelector(selectFavourites);
+    const [clicked,setClicked] = useState(false);
+    const handleClick = () => {
+        dispatch(addItemToList(favList,item))
+        setClicked(!clicked);
+    }
     return (
         <div className='card'>
             <div className='image-container'>
@@ -45,9 +57,13 @@ const Card = ({item}) => {
                         <SquareFootIcon />
                         <span>{item.squareFeet} sqft</span>
                     </div>
-                    <div className='info'>
-                        <AddIcon />
-                        <span>Add to favourites</span>
+                    <div className='info' onClick={handleClick}>
+                    {
+                        clicked ?
+                        (<FavoriteIcon />)
+                        :
+                        (<FavoriteBorderIcon />)
+                    }
                     </div>
                 </div>
             </div>

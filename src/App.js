@@ -10,12 +10,12 @@ function App() {
   // dispatch the data list to redux store
   useEffect(() => {
     dispatch(getDataList(dataList));
-    dispatch(getFilterList(dataList));
+    dispatch(getFilterList([]));
   },[]);
 
   return (
    <Routes>
-    <Route index element={<Home />} />
+    <Route path="/*" element={<Home />} />
    </Routes>
   );
 }

@@ -1,10 +1,12 @@
-.data-preview{
-    margin-top: 6em;
-    margin-left:10px;
-    width:100%;
-    padding: 15px;
+.data-preview-container{
+    width:100vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    place-items: center;
+    margin-top: 6em;
+}
+.data-preview{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
     row-gap: 30px;
     column-gap: 15px;
 }

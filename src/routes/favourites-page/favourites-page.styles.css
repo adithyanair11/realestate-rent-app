@@ -1,0 +1,26 @@
+.fav-page{
+    height: 100vh;
+    overflow-y: overlay;
+    padding-left:20em;
+}
+
+.fav-page::-webkit-scrollbar{
+    display: none;
+}
+
+.fav-list-container{
+    width:70vw;
+    margin-top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fav-head h1{
+    font-size: 2.2rem;
+    margin-bottom: 0.4em;
+}
+.fav-head span{
+    font-weight: bold;
+}

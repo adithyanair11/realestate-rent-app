@@ -19,7 +19,8 @@ const Header = () => {
             searchField={searchField}
             setSearchField={setSearchField}
             />
-            <SearchFilter searchField={searchField} setSearchField={setSearchField}/>
+            <SearchFilter searchField={searchField} setSearchField={setSearchField} />
+            <div className='header-fade'></div>
         </div>
     )
 }

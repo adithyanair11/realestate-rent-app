@@ -1,12 +1,14 @@
-import './home.styles.css';
-import DataPreview from '../../components/data-preview/data-preview.component';
-import Header from '../../components/header/header.component';
+import { Route,Routes } from "react-router-dom";
+import HomePreview from "../home-preview/home-preview.component";
+import FavouritesPage from '../favourites-page/favourites-page.components'
 const Home = () => {
     return(
-        <div className='home-page'>
-            <Header />
-            <DataPreview />
-        </div>
+        <>
+            <Routes>
+                <Route index element={<HomePreview />}/>
+                <Route path="/favourites" element={<FavouritesPage />}/>
+            </Routes>
+        </>
     )
 }
 

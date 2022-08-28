@@ -8,7 +8,10 @@ import PriceRange from '../price-range/price-range.component';
 
 const SearchFilter = ({searchField,setSearchField}) => {
     const dispatch = useDispatch();
+
     const dataList = useSelector(selectDataList);
+
+
     const [rangeValue,setRangeValue] = useState(100000);
     const [city,setCity] = useState("");
     const [prop,setProp] = useState("");
@@ -16,6 +19,7 @@ const SearchFilter = ({searchField,setSearchField}) => {
     const onChangeSlider = (e) => {
         setRangeValue(parseInt(e.target.value,10))
     }
+
     const cities = [...new Set(dataList.map(item => item.city))];
     const properties = [...new Set(dataList.map(item => item.property.type))];
 
