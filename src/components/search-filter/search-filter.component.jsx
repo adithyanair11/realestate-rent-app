@@ -7,6 +7,7 @@ import FilterContext from '../../context/filter-context';
 import { useContext } from 'react';
 import DropDown from '../dropdown/dropdown.component';
 import PriceRange from '../price-range/price-range.component';
+import DatePicker from '../date-picker/date-picker.component';
 
 const SearchFilter = ({searchField,setSearchField}) => {
     const dispatch = useDispatch();
@@ -61,12 +62,16 @@ const SearchFilter = ({searchField,setSearchField}) => {
     return(
         <div className='search-filter'>
             <div className='filter'>
-                <span className='title'>location</span>
+                <span className='title'>Location</span>
                 <DropDown type="city" data={cities} selected={city} setSelected={setCity}/>
             </div>
             <div className='filter'>
                 <span className='title'>Property Type</span>
                 <DropDown type="property" data={properties} selected={prop} setSelected ={setProp}/>
+            </div>
+            <div className='filter'>
+            <span className='title'>Move-in-date</span>
+            <DatePicker minDate={new Date()} maxDate={new Date(2022,10,22)}/>
             </div>
             <div className='filter'>
                 <span className='title'>Price Range</span>

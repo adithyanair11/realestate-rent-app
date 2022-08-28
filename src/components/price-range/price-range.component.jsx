@@ -1,7 +1,9 @@
 import './price-range.styles.css';
-import {useState} from 'react';
+import {useState,useContext} from 'react';
+import FilterContext from '../../context/filter-context';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 const PriceRange = (props) => {
+    const {rangeValue} = useContext(FilterContext)
     const {
         step,
         min,
@@ -10,17 +12,15 @@ const PriceRange = (props) => {
         defaultLength,
         onChangeValue,
     } = props;
-    const [range,setRange] = useState(defaultLength);
     const handleChange = (max) => e => {
         onChangeValue(e);
-        setRange(e.target.value);
     }
 
     return(
         <div className='range-container'>
             <div className='range-slider-value'>
                 <CurrencyRupeeIcon />
-                <span>{range}</span>
+                <span>{rangeValue}</span>
             </div>
             <div className='slider'>
                 <span>15K</span>

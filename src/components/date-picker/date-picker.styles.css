@@ -1,0 +1,95 @@
+.date-wrapper{
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.date-button{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 24px;
+    height: 60px;
+    width:240px;
+    padding:0 10px;
+}
+
+.menu{
+    overflow:hidden;
+    overflow-y: overlay;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    top:50px;
+    left: 0;
+    width: 100%;
+}
+
+.menu::-webkit-scrollbar{
+    display: none;
+}
+
+.menu .calender{
+    width:100%;
+    padding: 14px 0;
+    background-color: #eee;
+    transform: translateY(-100%);
+    transition: all 0.3s;
+}
+
+.clicked ~ .menu .calender{
+    transform: translateY(0);
+}
+
+
+.calender-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calender button{
+    border:none;
+    outline: none;
+}
+
+.calender-header svg{
+    cursor: pointer;
+}
+
+.calender-body{
+    width: 100%;
+    padding: 8px;
+}
+
+.calender-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-items: center;
+    row-gap: 9px;
+    column-gap: 6px;
+}
+
+.calender-grid:first-child p{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.calender-grid button{
+    font-size: 14px;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    padding: 2px;
+}
+
+.active{
+    background-color: rgb(163, 160, 160);
+}
+

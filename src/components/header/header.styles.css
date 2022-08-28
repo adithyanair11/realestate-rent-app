@@ -17,17 +17,3 @@
     flex-direction: column;
 }
 
-/* .header *{
-    position: relative;
-    z-index: 2;
-} */
-
-/* .header-fade{
-    position: absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
-    background-color:rgba(45,52,54,0.2);
-    background-image: linear-gradient(315deg, rgba(45,52,54,0.2) 0%, #000000 74%);
-} */
