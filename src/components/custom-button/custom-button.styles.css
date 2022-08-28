@@ -15,6 +15,13 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    transition: hover 0.2s ease;
+}
+
+.button-container:hover{
+    background-color: #fff;
+    color:#000;
+    border:1px solid #000;
 }
 
 .fav{

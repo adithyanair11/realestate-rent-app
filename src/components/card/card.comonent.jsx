@@ -8,13 +8,14 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { useDispatch,useSelector } from 'react-redux';
-import { useState } from 'react';
+import { useContext,useState } from 'react';
 import { selectFavourites } from '../../store/favourites/favourites.selector';
 import { addItemToList} from '../../store/favourites/favourites.action';
-const Card = ({item}) => {
+import FilterContext from '../../context/filter-context';
+const Card = ({item,id}) => {
+    const [clicked,setClicked] = useState(false);
     const dispatch = useDispatch();
     const favList = useSelector(selectFavourites);
-    const [clicked,setClicked] = useState(false);
     const handleClick = () => {
         dispatch(addItemToList(favList,item))
         setClicked(!clicked);
@@ -59,7 +60,7 @@ const Card = ({item}) => {
                     </div>
                     <div className='info' onClick={handleClick}>
                     {
-                        clicked ?
+                        favList.find(fav => fav.id === id) ?
                         (<FavoriteIcon />)
                         :
                         (<FavoriteBorderIcon />)

@@ -12,7 +12,7 @@ const DataPreview = () => {
         <div className='data-preview'>
         {
             filterList.length ?
-            (filterList.map(item => <Card key={item.id} item={item}/>))
+            (filterList.map(item => <Card key={item.id} item={item} id={item.id}/>))
             :
             <h1>No results</h1>
         }

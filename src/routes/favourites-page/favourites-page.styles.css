@@ -1,7 +1,9 @@
 .fav-page{
     height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
     overflow-y: overlay;
-    padding-left:20em;
 }
 
 .fav-page::-webkit-scrollbar{
@@ -9,18 +11,40 @@
 }
 
 .fav-list-container{
-    width:70vw;
-    margin-top: 8em;
+    margin-top: 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.favourites{
+    display: flex;
+    flex-direction: column;
+    gap: 2em 0;
+    margin-top: 2em;
+    width: 500px;
+}
+
+.fav-head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .fav-head h1{
     font-size: 2.2rem;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.2em;
 }
 .fav-head span{
     font-weight: bold;
+}
+
+.empty{
+    display: flex;
+    gap: 1em 0;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
 }

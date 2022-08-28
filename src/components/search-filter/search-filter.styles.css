@@ -25,6 +25,7 @@
 
 
 .reset-button{
+    font-weight: bold;
     margin-top:1.6em;
     width:60px;
     height: 60px;
