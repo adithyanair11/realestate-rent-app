@@ -1,11 +1,11 @@
 import './header.styles.css';
 import SearchFilter from '../search-filter/search-filter.component';
 import Search from '../search/search.component';
-import { useState} from 'react';
-
+import FilterContext from '../../context/filter-context';
+import { useContext } from 'react';
 const Header = () => {
-    const [searchField,setSearchField] = useState('');
-
+    
+    const {searchField,setSearchField} = useContext(FilterContext);
     const handleChange = (e) => {
         const searchTerm = e.target.value;
         setSearchField(searchTerm);

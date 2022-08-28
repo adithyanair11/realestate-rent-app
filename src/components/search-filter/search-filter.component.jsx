@@ -2,7 +2,9 @@ import './search-filter.styles.css';
 import { useDispatch,useSelector } from 'react-redux';
 import { selectDataList } from '../../store/data/data.selector';
 import { getFilterList } from '../../store/data/data.action';
-import { useState,useEffect } from 'react';
+import { useEffect } from 'react';
+import FilterContext from '../../context/filter-context';
+import { useContext } from 'react';
 import DropDown from '../dropdown/dropdown.component';
 import PriceRange from '../price-range/price-range.component';
 
@@ -11,11 +13,8 @@ const SearchFilter = ({searchField,setSearchField}) => {
 
     const dataList = useSelector(selectDataList);
 
+    const {city,setCity,prop,setProp,rangeValue,setRangeValue} = useContext(FilterContext);
 
-    const [rangeValue,setRangeValue] = useState(100000);
-    const [city,setCity] = useState("");
-    const [prop,setProp] = useState("");
-    
     const onChangeSlider = (e) => {
         setRangeValue(parseInt(e.target.value,10))
     }

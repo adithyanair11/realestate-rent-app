@@ -4,6 +4,7 @@ import {useDispatch} from 'react-redux';
 import {getDataList,getFilterList} from './store/data/data.action'
 import dataList from './data';
 import Home from "./routes/home/home.component";
+import {FilterProvider} from './context/filter-context';
 function App() {
   const dispatch = useDispatch();
 
@@ -14,9 +15,11 @@ function App() {
   },[]);
 
   return (
-   <Routes>
-    <Route path="/*" element={<Home />} />
-   </Routes>
+   <FilterProvider>
+    <Routes>
+      <Route path="/*" element={<Home />} />
+    </Routes>
+   </FilterProvider>
   );
 }
 
