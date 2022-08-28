@@ -10,7 +10,7 @@ function App() {
   // dispatch the data list to redux store
   useEffect(() => {
     dispatch(getDataList(dataList));
-    dispatch(getFilterList([]));
+    dispatch(getFilterList(dataList));
   },[]);
 
   return (
