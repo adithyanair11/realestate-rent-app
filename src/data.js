@@ -14,7 +14,8 @@ const dataList =
                     address:'498, New No 634, Anna Salai, Nandanam',
                     beds:4,
                     baths:4,
-                    squareFeet:2800
+                    squareFeet:2800,
+                    moveIn: '10/09/2022'
                 },
                 {
                     id: 2,
@@ -29,7 +30,8 @@ const dataList =
                     address:'5, 3rd Avenue, Ashok Nagar',
                     beds:5,
                     baths:4,
-                    squareFeet:2200
+                    squareFeet:2200,
+                    moveIn: '13/09/2022'
                 },
                 {
                     id: 3,
@@ -44,7 +46,8 @@ const dataList =
                     address:'74 Audiappa Naicken St, Sowcarpet',
                     beds:3,
                     baths:2,
-                    squareFeet:2500
+                    squareFeet:2500,
+                    moveIn: '20/09/2022'
                 },
                 {
                     id: 4,
@@ -59,7 +62,8 @@ const dataList =
                     address:'No.116/85,patel Road, Perambur',
                     beds:2,
                     baths:2,
-                    squareFeet:1750
+                    squareFeet:1750,
+                    moveIn: '24/09/2022'
                 },
                 {
                     id: 5,
@@ -74,7 +78,8 @@ const dataList =
                     address:'14/34, Venkatraman Street, T Nagar',
                     beds:3,
                     baths:2,
-                    squareFeet:1850
+                    squareFeet:1850,
+                    moveIn: '16/09/2022'
                 },
                 {
                     id: 6,
@@ -89,7 +94,8 @@ const dataList =
                     address:'136/2, Habibullah Road, T Nagar',
                     beds:2,
                     baths:2,
-                    squareFeet:1950
+                    squareFeet:1950,
+                    moveIn: '28/09/2022'
                 },
                 {
                     id: 7,
@@ -104,7 +110,8 @@ const dataList =
                     address:'No 37, Vellalar St, Mel Aynambakkam',
                     beds:4,
                     baths:4,
-                    squareFeet:2400
+                    squareFeet:2400,
+                    moveIn: '05/09/2022'
                 },
                 {
                     id: 8,
@@ -119,7 +126,8 @@ const dataList =
                     address:'57, G N T Road Balaji Nagar',
                     beds:5,
                     baths:5,
-                    squareFeet:3200
+                    squareFeet:3200,
+                    moveIn: '05/10/2022'
                 },
                 {   id: 9,
                     property: {
@@ -133,7 +141,8 @@ const dataList =
                     address:'13-c, Gengu Reddy St, Egmore',
                     beds:5,
                     baths:4,
-                    squareFeet:3000
+                    squareFeet:3000,
+                    moveIn: '10/10/2022'
                 },
                 {
                     id: 10,
@@ -148,7 +157,8 @@ const dataList =
                     address:'13-c, Gengu Reddy St, Egmore',
                     beds:2,
                     baths:2,
-                    squareFeet:1300
+                    squareFeet:1300,
+                    moveIn: '14/10/2022'
                 },
                 {
                     id: 11,
@@ -163,7 +173,8 @@ const dataList =
                     address:'30, Maddoxst, Choolai',
                     beds:3,
                     baths:2,
-                    squareFeet:1100
+                    squareFeet:1100,
+                    moveIn: '18/10/2022'
                 },
                 {
                     id: 12,
@@ -178,7 +189,8 @@ const dataList =
                     address:'920, P H Road',
                     beds:3,
                     baths:3,
-                    squareFeet:1250
+                    squareFeet:1250,
+                    moveIn: '22/10/2022'
                 },
 
         
@@ -193,7 +205,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.ibbEaYjer6_hn1uB8TiY3gHaF7&pid=Api&P=0',
                     price:35000,
                     address:'274, Peters Road, Gopalapuram',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '26/10/2022'
                 },
                 {
                     id: 14,
@@ -206,7 +219,8 @@ const dataList =
                     image: 'https://tse4.mm.bing.net/th?id=OIP.RfiSkKpy4kHCoMPbTwvjswHaEy&pid=Api&P=0',
                     price:25000,
                     address:'Sp-9, Thiru Vi Ka Indl Est, Guindy',
-                    squareFeet:3500
+                    squareFeet:3500,
+                    moveIn: '29/10/2022'
                 },
                 {
                     id: 15,
@@ -219,7 +233,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.o9hVIa18JFDPGLd-TSQvnQHaHa&pid=Api&P=0',
                     price:45000,
                     address:'81a,pillaiyar Koil Street, Ashok Nagar',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '12/10/2022'
                 }
             ,
             
@@ -234,7 +249,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.3pEoLnykDEQd7I_ycq_uWgHaE9&pid=Api&P=0',
                     price:60000,
                     address:'45/15, Whites Shop, Royapettah',
-                    squareFeet:1500
+                    squareFeet:1500,
+                    moveIn: '16/10/2022'
                 },
                 {
                     id: 17,
@@ -247,7 +263,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.qsL7dk9UYLB9f0AxkPM4UwHaFj&pid=Api&P=0',
                     price:80000,
                     address:'20/11a, New Street, Kotturpuram',
-                    squareFeet:1600
+                    squareFeet:1600,
+                    moveIn: '05/10/2022'
                 },
                 {
                     id: 18,
@@ -260,7 +277,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP._8xJ5RWnp3ImlRWDvLu7ugHaE8&pid=Api&P=0',
                     price:90000,
                     address:'New No 162, Angappa Naicken Street',
-                    squareFeet:1700
+                    squareFeet:1700,
+                    moveIn: '05/11/2022'
                 },
                 {
                     id: 19,
@@ -273,7 +291,8 @@ const dataList =
                     image: 'https://tse4.mm.bing.net/th?id=OIP.yM2QiAwJf0vwGZFLIZj24QHaFj&pid=Api&P=0',
                     price:35000,
                     address:'191, Mount Road',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '10/11/2022'
                 },
                 {
                     id: 20,
@@ -286,7 +305,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.8OmF6K_Xkil0nxaypqHq8AHaE7&pid=Api&P=0',
                     price:25000,
                     address:'New No 38, G N Chty Rd',
-                    squareFeet:3500
+                    squareFeet:3500,
+                    moveIn: '15/11/2022'
                 },
                 {
                     id: 21,
@@ -299,7 +319,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.P8w43iWQ2C2KnYkrNLfwPQHaEK&pid=Api&P=0',
                     price:45000,
                     address:'321, Ist Flr Arcot Road, Kodambakkam',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '08/11/2022'
                 }
             ,
             
@@ -314,7 +335,8 @@ const dataList =
                     image: 'https://tse4.mm.bing.net/th?id=OIP.jWnVNeG0RYg-uAnCpmkQxQHaE8&pid=Api&P=0',
                     price:45000,
                     address:'12, R K Mutt Road, Mylapore',
-                    squareFeet:5000
+                    squareFeet:5000,
+                    moveIn: '02/11/2022'
                 },
                 {
                     id: 23,
@@ -327,7 +349,8 @@ const dataList =
                     image: 'https://tse4.mm.bing.net/th?id=OIP.pG8bF7_kMbToUyFHIjyuqQHaFS&pid=Api&P=0',
                     price:45000,
                     address:'12, R K Mutt Road, Mylapore',
-                    squareFeet:4500
+                    squareFeet:4500,
+                    moveIn: '01/11/2022'
                 },
                 {
                     id: 24,
@@ -340,7 +363,8 @@ const dataList =
                     image: 'https://tse4.mm.bing.net/th?id=OIP.11iGxSUlxUX6RGOwzkGVeAHaE7&pid=Api&P=0',
                     price:55000,
                     address:'10-b, Whannels Road, Egmore',
-                    squareFeet:6000
+                    squareFeet:6000,
+                    moveIn: '13/10/2022'
                 },
                 {
                     id: 72,
@@ -355,7 +379,8 @@ const dataList =
                     address:'203/4, Begur Main Rd, Bommana Halli',
                     beds:4,
                     baths:4,
-                    squareFeet:2800
+                    squareFeet:2800,
+                    moveIn: '10/09/2022'
                 },
                 {
                     id: 25,
@@ -370,7 +395,8 @@ const dataList =
                     address:'139, Prestige Poseidon, Residency Road',
                     beds:5,
                     baths:4,
-                    squareFeet:2200
+                    squareFeet:2200,
+                    moveIn: '13/09/2022'
                 },
                 {
                     id: 26,
@@ -385,7 +411,8 @@ const dataList =
                     address:'84, R V Road, Basavanagudi',
                     beds:3,
                     baths:2,
-                    squareFeet:2500
+                    squareFeet:2500,
+                    moveIn: '20/09/2022'
                 },
                 {
                     id: 27,
@@ -400,7 +427,8 @@ const dataList =
                     address:'142, Os;bgh Rd Blr-27, Lalbagh',
                     beds:2,
                     baths:2,
-                    squareFeet:1750
+                    squareFeet:1750,
+                    moveIn: '24/09/2022'
                 },
                 {
                     id: 28,
@@ -415,7 +443,8 @@ const dataList =
                     address:'43/2,centralstshivajingrblr-1, Shivaji Nagar',
                     beds:3,
                     baths:2,
-                    squareFeet:1850
+                    squareFeet:1850,
+                    moveIn: '16/09/2022'
                 },
                 {
                     id: 29,
@@ -430,7 +459,8 @@ const dataList =
                     address:'466/1, 22nd Cross N M K R V College, Jayanagar',
                     beds:2,
                     baths:2,
-                    squareFeet:1950
+                    squareFeet:1950,
+                    moveIn: '28/09/2022'
                 },
                 {
                     id: 30,
@@ -445,7 +475,8 @@ const dataList =
                     address:'5/1, 15th Cross Lakkasandra Hosur Main Road',
                     beds:4,
                     baths:4,
-                    squareFeet:2400
+                    squareFeet:2400,
+                    moveIn: '05/09/2022'
                 },
                 {
                     id: 31,
@@ -460,7 +491,8 @@ const dataList =
                     address:'57, G N T Road Balaji Nagar',
                     beds:5,
                     baths:5,
-                    squareFeet:3200
+                    squareFeet:3200,
+                    moveIn: '05/10/2022'
                 },
                 {   id: 32,
                     property: {
@@ -474,7 +506,8 @@ const dataList =
                     address:'126, 126,klsiplyblr-2, Kalasipalyam',
                     beds:5,
                     baths:4,
-                    squareFeet:3000
+                    squareFeet:3000,
+                    moveIn: '10/10/2022'
                 },
                 {
                     id: 33,
@@ -489,7 +522,8 @@ const dataList =
                     address:'144,badamakhanrd,offlbghrdblr-27, Wilson Garden',
                     beds:2,
                     baths:2,
-                    squareFeet:1300
+                    squareFeet:1300,
+                    moveIn: '14/10/2022'
                 },
                 {
                     id: 34,
@@ -504,7 +538,8 @@ const dataList =
                     address:'65/1, Rathna Mansion, 5th Main, Motimahal Road',
                     beds:3,
                     baths:2,
-                    squareFeet:1100
+                    squareFeet:1100,
+                    moveIn: '18/10/2022'
                 },
                 {
                     id: 35,
@@ -519,7 +554,8 @@ const dataList =
                     address:'Old Madras Rd, Krishnarajapuram',
                     beds:3,
                     baths:3,
-                    squareFeet:1250
+                    squareFeet:1250,
+                    moveIn: '22/10/2022'
                 },
                 {
                     id: 36,
@@ -532,7 +568,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.bsrmpwwzxuUbPUZQTJxHBwHaEo&pid=Api&P=0',
                     price:35000,
                     address:'506, Mittal Towers, A Wing, M G Road',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '26/10/2022'
                 },
                 {
                     id: 37,
@@ -545,7 +582,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.rw7piJ2WhlKFu4zSFbDlGQHaEa&pid=Api&P=0',
                     price:25000,
                     address:'8stmarksplaza,stmarksrd,bangalore01, St Marks Road',
-                    squareFeet:3500
+                    squareFeet:3500,
+                    moveIn: '12/10/2022'
                 },
                 {
                     id: 38,
@@ -558,7 +596,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.QeDYzKEzCA5NpO_3F25vDQHaJl&pid=Api&P=0',
                     price:45000,
                     address:'341,pantharapalaya,mysorerd,blr-26, Mysore Road',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '12/10/2022'
                 },
                 {
                     id: 39,
@@ -571,7 +610,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.g-DyzxXc262cD4gVO19P4gHaE8&pid=Api&P=0',
                     price:60000,
                     address:'14, Ladycurzonrd,bangalore, Lady Curzon Road',
-                    squareFeet:1500
+                    squareFeet:1500,
+                    moveIn: '12/10/2022'
                 },
                 {
                     id: 40,
@@ -584,7 +624,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.g-DyzxXc262cD4gVO19P4gHaE8&pid=Api&P=0',
                     price:80000,
                     address:'1/a, Iflr,tnrchamber,churchst,blr-01, Church Road',
-                    squareFeet:1600
+                    squareFeet:1600,
+                    moveIn: '18/10/2022'
                 },
                 {
                     id: 41,
@@ -597,7 +638,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP.2ILr33lrKIRCpMueNs2lbQHaE8&pid=Api&P=0',
                     price:90000,
                     address:'No-72, M.g.road,bangalore-01, Mg Road',
-                    squareFeet:1700
+                    squareFeet:1700,
+                    moveIn: '14/10/2022'
                 },
                 {
                     id: 42,
@@ -610,7 +652,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.2M4Iozq584GeJhoz8FcVGgHaIA&pid=Api&P=0',
                     price:35000,
                     address:'1/a, Iflr,tnrchamber,churchst,blr-01, Church Road',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '12/09/2022'
                 },
                 {
                     id: 43,
@@ -623,7 +666,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP.56RM7VdEAlHiXdtDyBV73QHaEK&pid=Api&P=0',
                     price:250000,
                     address:'14, Ladycurzonrd,bangalore, Lady Curzon Road',
-                    squareFeet:3500
+                    squareFeet:3500,
+                    moveIn: '02/10/2022'
                 },
                 {
                     id: 44,
@@ -636,7 +680,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP.1agx3aPQXC5RKDRp6XwQ6QHaEK&pid=Api&P=0',
                     price:45000,
                     address:'9/1, 1, Opp 1st Cross, H Siddaiah Road',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '15/10/2022'
                 },
                 {
                     id: 45,
@@ -649,7 +694,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP.qBzXhUQOEzJgqqbwrsHvEQHaE7&pid=Api&P=0',
                     price:45000,
                     address:'266, S C Road',
-                    squareFeet:5000
+                    squareFeet:5000,
+                    moveIn: '09/10/2022'
                 },
                 {
                     id: 46,
@@ -661,7 +707,8 @@ const dataList =
                     state: 'KA',
                     image: 'https://tse1.mm.bing.net/th?id=OIP.ZDhUIszZkxi5mue2O7-kwQHaFj&pid=Api&P=0',
                     address: '131/c, 12mn,9crs,j.p.ngr2ndph,b-78, J .p .nagar',
-                    squareFeet:4500
+                    squareFeet:4500,
+                    moveIn: '13/09/2022'
                 },
                 {
                     id: 47,
@@ -674,7 +721,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP.DeXJtbISNNGEF5th3cBSCQHaE8&pid=Api&P=0',
                     price:55000,
                     address:'21, 4th Cross 3rd Main, Hanumanthanagar',
-                    squareFeet:6000
+                    squareFeet:6000,
+                    moveIn: '19/10/2022'
                 },
                 {
                     id: 48,
@@ -689,7 +737,8 @@ const dataList =
                     address:'3rd Floor, 198, Kalbadevi Road, Kalbadevi',
                     beds:4,
                     baths:4,
-                    squareFeet:2800
+                    squareFeet:2800,
+                    moveIn: '10/09/2022'
                 },
                 {
                     id: 49,
@@ -704,7 +753,8 @@ const dataList =
                     address:'Station Road, Opp Ongc Main Gate,near National Gi, Bandra(e)',
                     beds:5,
                     baths:4,
-                    squareFeet:2200
+                    squareFeet:2200,
+                    moveIn: '13/09/2022'
                 },
                 {
                     id: 50,
@@ -719,7 +769,8 @@ const dataList =
                     address:'122, Kalyandas Bldg, Ak Road, August Kranti',
                     beds:3,
                     baths:2,
-                    squareFeet:2500
+                    squareFeet:2500,
+                    moveIn: '20/09/2022'
                 },
                 {
                     id: 51,
@@ -734,7 +785,8 @@ const dataList =
                     address:'Plot No 186, Sector 12, Sk Automotives Ltd, Vashi, Navi Mumbai',
                     beds:2,
                     baths:2,
-                    squareFeet:1750
+                    squareFeet:1750,
+                    moveIn: '24/09/2022'
                 },
                 {
                     id: 52,
@@ -749,7 +801,8 @@ const dataList =
                     address:'30/32, Dr M B Velkar Street, Nr Nirnay Sagar Press, Chira Bazar',
                     beds:3,
                     baths:2,
-                    squareFeet:1850
+                    squareFeet:1850,
+                    moveIn: '16/09/2022'
                 },
                 {
                     id: 53,
@@ -764,7 +817,8 @@ const dataList =
                     address:'R C Marg, Shell Colony Road, Chembur Fatak, Chembur',
                     beds:2,
                     baths:2,
-                    squareFeet:1950
+                    squareFeet:1950,
+                    moveIn: '28/09/2022'
                 },
                 {
                     id: 54,
@@ -779,7 +833,8 @@ const dataList =
                     address:'A/11, Rajput Chawl, Dharavi Main Road, Opp Maharashtra Hotel, Dharavi',
                     beds:4,
                     baths:4,
-                    squareFeet:2400
+                    squareFeet:2400,
+                    moveIn: '05/09/2022'
                 },
                 {
                     id: 55,
@@ -794,7 +849,8 @@ const dataList =
                     address:'Shop No 2 Vijay Villa, Plot No 23 S V Rd, Goregaon (west)',
                     beds:5,
                     baths:5,
-                    squareFeet:3200
+                    squareFeet:3200,
+                    moveIn: '05/10/2022'
                 },
                 {   id: 56,
                     property: {
@@ -808,7 +864,8 @@ const dataList =
                     address:'14sidcoindlest, Thirumudivakam, Grant Road',
                     beds:5,
                     baths:4,
-                    squareFeet:3000
+                    squareFeet:3000,
+                    moveIn: '10/10/2022'
                 },
                 {
                     id: 57,
@@ -823,7 +880,8 @@ const dataList =
                     address:'Jn 1/35/a-4, Sector 9, Vashi',
                     beds:2,
                     baths:2,
-                    squareFeet:1300
+                    squareFeet:1300,
+                    moveIn: '14/10/2022'
                 },
                 {
                     id: 58,
@@ -838,7 +896,8 @@ const dataList =
                     address:'407, B, Jamuna Bldg, ,borivali I C Colony, Mandapeshwar',
                     beds:3,
                     baths:2,
-                    squareFeet:1100
+                    squareFeet:1100,
+                    moveIn: '26/10/2022'
                 },
                 {
                     id: 59,
@@ -853,7 +912,8 @@ const dataList =
                     address:'G 35, Inorbit Mall, Link Rd, Malad (w)',
                     beds:3,
                     baths:3,
-                    squareFeet:1250
+                    squareFeet:1250,
+                    moveIn: '29/10/2022'
                 },
                 {
                     id: 60,
@@ -866,7 +926,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.BbobrNR4Czw7yrVvpMxqhwHaDy&pid=Api&P=0',
                     price:35000,
                     address:'Shankar Nivas, Utkarsh Nagar,t.p Road, Bhandup (west)',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '29/10/2022'
                 },
                 {
                     id: 61,
@@ -879,7 +940,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.ZPOYnyz-bR8JKdL1yo66vwHaEG&pid=Api&P=0',
                     price:25000,
                     address:'268/1 Motil Nagar, Panchpakhadi Next Garima Tower, Nea, Thane',
-                    squareFeet:3500
+                    squareFeet:3500,
+                    moveIn: '22/10/2022'
                 },
                 {
                     id: 62,
@@ -892,7 +954,8 @@ const dataList =
                     image: 'https://tse4.mm.bing.net/th?id=OIP.fe8dF4RSxi_x_lnXHz4vTgHaFj&pid=Api&P=0',
                     price:45000,
                     address:'2nd Floor, 44, Nagdevi Cross Lane, Nagdevi',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '26/10/2022'
                 },
                 {
                     id: 63,
@@ -905,7 +968,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP.ec4Wmb_i9bqiUsFjwqVdVQHaEK&pid=Api&P=0',
                     price:60000,
                     address:'11, Parshwa Kunj, Mathuradas Road, Kandivali (west)',
-                    squareFeet:1500
+                    squareFeet:1500,
+                    moveIn: '11/10/2022'
                 },
                 {
                     id: 64,
@@ -918,7 +982,8 @@ const dataList =
                     image: 'https://tse2.mm.bing.net/th?id=OIP.7I3BGNn9rEbayhcSMSvGJQHaE7&pid=Api&P=0',
                     price:80000,
                     address:'Gr Fl, Rathod Niketan, M G Road, Opp Sai Nagar, Kandivli(w)',
-                    squareFeet:1600
+                    squareFeet:1600,
+                    moveIn: '18/09/2022'
                 },
                 {
                     id: 65,
@@ -931,7 +996,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.h5CkTvei3KCLbEjfGUeWnAHaE8&pid=Api&P=0',
                     price:90000,
                     address:'25, Mali Bahvan, 8th Khetwadi Lane, Khetwadi',
-                    squareFeet:1700
+                    squareFeet:1700,
+                    moveIn: '21/09/2022'
                 },
                 {
                     id: 66,
@@ -944,7 +1010,8 @@ const dataList =
                     image: 'https://tse4.mm.bing.net/th?id=OIP.01sf7u64W72CydSSn8lO8AHaDx&pid=Api&P=0',
                     price:35000,
                     address:'44, Hill View Apts, Surya Nagar, Lbs Marg, Vikhroli (w)',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '08/09/2022'
                 },
                 {
                     id: 67,
@@ -957,7 +1024,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.OILoe6cMXtLVrOEFwGdb5wHaFk&pid=Api&P=0',
                     price:25000,
                     address:'10 / 12 Old Hira Bldg, 1 St Parsiwada Lane, Girgaum',
-                    squareFeet:3500
+                    squareFeet:3500,
+                    moveIn: '10/09/2022'
                 },
                 {
                     id: 68,
@@ -970,7 +1038,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.1-AhBPPoZX3Opc7K9cItPAHaEK&pid=Api&P=0',
                     price:45000,
                     address:'Krishna Niwas, T H Kataria Marg, Matunga (west)',
-                    squareFeet:4000
+                    squareFeet:4000,
+                    moveIn: '13/09/2022'
                 },
                 {
                     id: 69,
@@ -983,7 +1052,8 @@ const dataList =
                     image: 'https://tse3.mm.bing.net/th?id=OIP.1d_ie0m-V0cB2ZDQxIRO0gHaEm&pid=Api&P=0',
                     price:45000,
                     address:'12, Sajid Towers, S V Rd, Amboli, Andheri (west)',
-                    squareFeet:5000
+                    squareFeet:5000,
+                    moveIn: '29/09/2022'
                 },
                 {
                     id: 70,
@@ -995,7 +1065,8 @@ const dataList =
                     state: 'MH',
                     image: 'https://tse2.mm.bing.net/th?id=OIP.aBg2bt0B4AuGSlES1OZkigHaEX&pid=Api&P=0',
                     address:'Mount Poinsur, Borivali (west)',
-                    squareFeet:4500
+                    squareFeet:4500,
+                    moveIn: '01/10/2022'
                 },
                 {
                     id: 71,
@@ -1008,7 +1079,8 @@ const dataList =
                     image: 'https://tse1.mm.bing.net/th?id=OIP.EAHcivUuZL1xKbgUwzMbtgHaE7&pid=Api&P=0',
                     price:55000,
                     address:'176, Dr Kenis House, Sion Main Road, Sion',
-                    squareFeet:6000
+                    squareFeet:6000,
+                    moveIn: '05/10/2022'
                 }
 
 ]

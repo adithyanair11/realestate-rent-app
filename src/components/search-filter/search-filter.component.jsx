@@ -2,6 +2,7 @@ import './search-filter.styles.css';
 import { useDispatch,useSelector } from 'react-redux';
 import { selectDataList } from '../../store/data/data.selector';
 import { getFilterList } from '../../store/data/data.action';
+import { format } from '../../utils/date-format';
 import { useEffect } from 'react';
 import FilterContext from '../../context/filter-context';
 import { useContext } from 'react';
@@ -14,7 +15,7 @@ const SearchFilter = ({searchField,setSearchField}) => {
 
     const dataList = useSelector(selectDataList);
 
-    const {city,setCity,prop,setProp,rangeValue,setRangeValue} = useContext(FilterContext);
+    const {city,setCity,prop,setProp,rangeValue,setRangeValue,selectDate,setSelectedDate} = useContext(FilterContext);
 
     const onChangeSlider = (e) => {
         setRangeValue(parseInt(e.target.value,10))
@@ -22,6 +23,11 @@ const SearchFilter = ({searchField,setSearchField}) => {
 
     const cities = [...new Set(dataList.map(item => item.city))];
     const properties = [...new Set(dataList.map(item => item.property.type))];
+
+    const convertToDate = (date) => {
+        const [day,month,year] = date.split('/');
+        return new Date(year,month-1,day);
+    }
 
     const applyFilters = () => {
         let updatedList = dataList;
@@ -40,6 +46,10 @@ const SearchFilter = ({searchField,setSearchField}) => {
             updatedList = updatedList.filter(item => item.property.type === prop);
         }
 
+        if(selectDate){
+            updatedList = updatedList.filter(item => convertToDate(item.moveIn) <= convertToDate(format(selectDate)));
+        }
+
         if(rangeValue){
             updatedList = updatedList.filter(item => item.price <= rangeValue);
         }
@@ -49,7 +59,7 @@ const SearchFilter = ({searchField,setSearchField}) => {
 
     useEffect(() => {
         applyFilters();
-    },[searchField,city,prop,rangeValue])
+    },[searchField,city,prop,rangeValue,selectDate])
 
 
     const resetFilters = () => {
@@ -57,6 +67,7 @@ const SearchFilter = ({searchField,setSearchField}) => {
         setProp("");
         setRangeValue(100000);
         setSearchField("");
+        setSelectedDate(null);
     }
 
     return(
@@ -71,7 +82,7 @@ const SearchFilter = ({searchField,setSearchField}) => {
             </div>
             <div className='filter'>
             <span className='title'>Move-in-date</span>
-            <DatePicker minDate={new Date()} maxDate={new Date(2022,10,22)}/>
+            <DatePicker type="Move-in-date" minDate={new Date()} maxDate={new Date(2022,10,22)}/>
             </div>
             <div className='filter'>
                 <span className='title'>Price Range</span>
