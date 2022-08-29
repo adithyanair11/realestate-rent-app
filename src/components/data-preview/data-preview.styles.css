@@ -16,6 +16,6 @@
         margin-top: 20em;
     }
     .data-preview{
-        grid-template-columns: repeat(1,400px);
+        grid-template-columns: repeat(1,360px);
     }
 }

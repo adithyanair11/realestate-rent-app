@@ -82,11 +82,18 @@
     .card{
         height: 180px;
     }
+    .card svg{
+        font-size: 15px !important;
+    }
     .image-container{
         height: 180px;
         width: 180px;
     }
     .property-details .info{
-        font-size: 10px;
+        font-size: 8px;
     }
+    .address,.price,.property-type,.location{
+        font-size: 14px;
+    }
+    
 }
