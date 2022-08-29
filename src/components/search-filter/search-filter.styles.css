@@ -60,4 +60,7 @@
     .filter .title{
         font-size: 14px;
     }
+    .reset-button{
+        display: none;
+    }
 }
