@@ -77,4 +77,8 @@
     .range-container{
         width: 140px;
     }
+    .range-slider::-webkit-slider-thumb{
+        width: 12px;
+        height: 12px;
+    }
 }
