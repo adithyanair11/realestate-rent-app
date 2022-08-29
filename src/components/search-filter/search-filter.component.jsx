@@ -72,15 +72,7 @@ const SearchFilter = ({searchField,setSearchField}) => {
 
     return(
         <div className='search-filter'>
-            <div className='filter'>
-                <span className='title'>Location</span>
-                <DropDown type="city" data={cities} selected={city} setSelected={setCity}/>
-            </div>
-            <div className='filter'>
-                <span className='title'>Property Type</span>
-                <DropDown type="property" data={properties} selected={prop} setSelected ={setProp}/>
-            </div>
-            <div className='filter'>
+        <div className='filter'>
                 <span className='title'>Price Range</span>
                 <PriceRange
                 min={15000}
@@ -90,6 +82,14 @@ const SearchFilter = ({searchField,setSearchField}) => {
                 value={rangeValue}
                 onChangeValue={onChangeSlider}
                 />
+            </div>
+            <div className='filter'>
+                <span className='title'>Location</span>
+                <DropDown type="city" data={cities} selected={city} setSelected={setCity}/>
+            </div>
+            <div className='filter'>
+                <span className='title'>Property Type</span>
+                <DropDown type="property" data={properties} selected={prop} setSelected ={setProp}/>
             </div>
             <div className='filter'>
                 <span className='title'>Move-in-date</span>

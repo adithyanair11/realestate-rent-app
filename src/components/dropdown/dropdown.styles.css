@@ -25,7 +25,6 @@
 
 
 .menu{
-    overflow:hidden;
     overflow-y: overlay;
     height: 200px;
     position: absolute;
