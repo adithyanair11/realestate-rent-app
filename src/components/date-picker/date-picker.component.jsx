@@ -36,7 +36,7 @@ const DatePicker = ({type,minDate,maxDate}) => {
             )
         }
     }
-    console.log(format(selectDate));
+
     const getTimeFromState = (_day) => {
         return new Date(currentYear,currentMonth,_day).getTime()
     }
