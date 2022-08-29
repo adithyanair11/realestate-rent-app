@@ -72,6 +72,7 @@ const SearchFilter = ({searchField,setSearchField}) => {
 
     return(
         <div className='search-filter'>
+        <button className='reset-button' onClick={resetFilters}>Reset</button>
         <div className='filter'>
                 <span className='title'>Price Range</span>
                 <PriceRange
@@ -95,7 +96,6 @@ const SearchFilter = ({searchField,setSearchField}) => {
                 <span className='title'>Move-in-date</span>
                 <DatePicker type="Move-in-date" minDate={new Date()} maxDate={new Date(2022,10,22)}/>
             </div>
-            <button className='reset-button' onClick={resetFilters}>Reset</button>
         </div>
     )
 }

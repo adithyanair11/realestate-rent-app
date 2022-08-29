@@ -78,18 +78,14 @@
 
 @media (max-width:768px){
     .button{
-        height: 40px;
         width:120px;
         gap:10px;
     }
     .text{
         font-size: 14px;
     }
-    .menu{
-        top:30px;
-    }
     .menu li{
         height: 30px;
-        font-size: 8px;
+        font-size: 10px;
     }
 }

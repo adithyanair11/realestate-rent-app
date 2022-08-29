@@ -52,11 +52,12 @@
 
 @media (max-width:768px){
     .search-filter{
-        width: 85%;
-        height: 380px;
+        width: 400px;
+        height: 370px;
         flex-wrap: wrap;
         top:200px;
     }
+
     .filter .title{
         font-size: 14px;
     }
