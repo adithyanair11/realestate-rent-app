@@ -26,3 +26,18 @@
     place-items: center;
 }
 
+@media (max-width:768px){
+    .search{
+        height: 40px;
+    }
+    .search-box{
+        height: 40px;
+        width: 250px;
+        font-size: 0.9rem;
+    }
+    .search-icon{
+        height: 40px;
+        width:40px;
+    }
+
+}

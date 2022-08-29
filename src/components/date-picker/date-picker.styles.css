@@ -22,7 +22,7 @@
     padding:0 10px;
 }
 
-.menu{
+.date-menu{
     overflow:hidden;
     overflow-y: overlay;
     height: 250px;
@@ -33,11 +33,11 @@
     width: 100%;
 }
 
-.menu::-webkit-scrollbar{
+.date-menu::-webkit-scrollbar{
     display: none;
 }
 
-.menu .calender{
+.date-menu .calender{
     width:100%;
     padding: 14px 0;
     background-color: #eee;
@@ -45,7 +45,7 @@
     transition: all 0.3s;
 }
 
-.clicked ~ .menu .calender{
+.clicked ~ .date-menu .calender{
     transform: translateY(0);
 }
 
@@ -97,4 +97,3 @@
 .active{
     background-color: rgb(163, 160, 160);
 }
-

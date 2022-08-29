@@ -50,3 +50,14 @@
     color:#fff
 }
 
+@media (max-width:768px){
+    .search-filter{
+        width: 85%;
+        height: 400px;
+        flex-wrap: wrap;
+        top:200px;
+    }
+    .filter .title{
+        font-size: 14px;
+    }
+}

@@ -11,3 +11,11 @@
     column-gap: 15px;
 }
 
+@media (max-width:768px){
+    .data-preview-container{
+        margin-top: 20em;
+    }
+    .data-preview{
+        grid-template-columns: repeat(1,400px);
+    }
+}

@@ -81,10 +81,6 @@ const SearchFilter = ({searchField,setSearchField}) => {
                 <DropDown type="property" data={properties} selected={prop} setSelected ={setProp}/>
             </div>
             <div className='filter'>
-            <span className='title'>Move-in-date</span>
-            <DatePicker type="Move-in-date" minDate={new Date()} maxDate={new Date(2022,10,22)}/>
-            </div>
-            <div className='filter'>
                 <span className='title'>Price Range</span>
                 <PriceRange
                 min={15000}
@@ -94,6 +90,10 @@ const SearchFilter = ({searchField,setSearchField}) => {
                 value={rangeValue}
                 onChangeValue={onChangeSlider}
                 />
+            </div>
+            <div className='filter'>
+                <span className='title'>Move-in-date</span>
+                <DatePicker type="Move-in-date" minDate={new Date()} maxDate={new Date(2022,10,22)}/>
             </div>
             <button className='reset-button' onClick={resetFilters}>Reset</button>
         </div>

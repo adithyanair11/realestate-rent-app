@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin: auto;
     width:80%;
     height: 400px;
     background-color: #fc7753;
@@ -17,3 +16,8 @@
     flex-direction: column;
 }
 
+@media (max-width:768px){
+    .header{
+        height: 300px;
+    }
+}

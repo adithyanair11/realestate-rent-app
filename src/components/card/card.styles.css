@@ -77,3 +77,16 @@
 .property-type{
     font-weight: bold;
 }
+
+@media (max-width:768px){
+    .card{
+        height: 180px;
+    }
+    .image-container{
+        height: 180px;
+        width: 180px;
+    }
+    .property-details .info{
+        font-size: 10px;
+    }
+}

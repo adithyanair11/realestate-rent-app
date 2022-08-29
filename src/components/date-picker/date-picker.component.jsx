@@ -46,7 +46,7 @@ const DatePicker = ({type,minDate,maxDate}) => {
                 <span className='date-text'>{selectDate ? format(selectDate) : type}</span>
                 <ExpandMoreIcon />
             </div>
-            <div className='menu'>
+            <div className='date-menu'>
                 <div className='calender'>
                     <div className='calender-header'>
                     <button 
