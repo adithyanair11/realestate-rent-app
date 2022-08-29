@@ -66,3 +66,15 @@
     margin-bottom: 3px;
 }
 
+@media (max-width:768px){
+
+    .range-slider-value span{
+        font-size: 12px;
+    }
+    .slider span{
+        font-size: 14px;
+    }
+    .range-container{
+        width: 140px;
+    }
+}
