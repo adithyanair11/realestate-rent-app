@@ -37,4 +37,8 @@
         line-height: 40px;
         height: 40px;
     }
+    .fav svg{
+        font-size: 15px !important;
+    }
+    
 }

@@ -13,7 +13,7 @@
 
 @media (max-width:768px){
     .data-preview-container{
-        margin-top: 20em;
+        margin-top: 24em;
     }
     .data-preview{
         grid-template-columns: repeat(1,360px);

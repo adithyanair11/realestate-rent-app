@@ -4,6 +4,7 @@
     padding: 10px;
     display: grid;
     place-items: center;
+    overflow-x: hidden;
 }
 .top{
     width:100%;
@@ -20,3 +21,8 @@ span svg{
     right:4px;
 }
 
+@media (max-width:768px){
+    span svg{
+        top: 4px;
+    }
+}
