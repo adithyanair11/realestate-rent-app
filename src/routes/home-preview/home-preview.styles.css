@@ -22,6 +22,9 @@ span svg{
 }
 
 @media (max-width:768px){
+    .home-page{
+        padding-left: 0;
+    }
     span svg{
         top: 4px;
     }
